@@ -1,0 +1,15 @@
+function show() {
+    for(var i = 2000; i <= 2030; i++ ){
+        var d = new Date(i,0,1);
+        if(d.getDay()==0){
+            console.log(i);
+        }
+    }
+}
+undefined
+show();
+VM481:5 2006
+VM481:5 2012
+VM481:5 2017
+VM481:5 2023
+

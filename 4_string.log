@@ -1,0 +1,10 @@
+function show(){
+    var a  = "brainmentors";
+    var b = a.charAt(11);
+    var c = a.substring(0,11);
+    console.log(b+c);
+}
+undefined
+show();
+VM400:5 sbrainmentor
+undefined

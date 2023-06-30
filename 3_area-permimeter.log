@@ -1,0 +1,18 @@
+var a = window.prompt("Enter the length of rectangle : ");
+undefined
+var b = window.prompt("Enter the breadth of rectangle : ");
+undefined
+var len = parseInt(a);
+undefined
+var br = parseInt(b);
+undefined
+var area = len*br;
+undefined
+var perimeter = 2*(len+br);
+undefined
+console.log(`The length of rectangle is : ${a} \nThe breadth of the rectangle is : ${b} \nArea : ${area} \n Perimeter : ${perimeter}`);
+VM226:1 The length of rectangle is : 10 
+The breadth of the rectangle is : 30 
+Area : 300 
+Perimeter : 80
+undefined

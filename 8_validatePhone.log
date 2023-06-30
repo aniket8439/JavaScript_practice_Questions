@@ -1,0 +1,105 @@
+function sum(x){
+    var digits;
+    var even = 0;
+    var odd = 0;
+    while(x>0){
+        digit = x % 10;
+        x = x/10;
+        if(digit % 2 == 0){
+            even = even + digit;
+        }
+        else{
+            odd = odd + digit;
+        }
+    }
+    console.log(`The sum of even place digits is : ${even}\nThe sum of odd place digits is : ${odd}`);
+}
+undefined
+sum(2913);
+VM354:15 The sum of even place digits is : 0
+The sum of odd place digits is : 16.666666666666682
+undefined
+function sum(x){
+    var digits;
+    var even = 0;
+    var odd = 0;
+    while(x>0){
+        digit = x % 10;
+        x = x/10;
+        if(digit % 2 = 0){
+            even = even + digit;
+        }
+        else{
+            odd = odd + digit;
+        }
+    }
+    console.log(`The sum of even place digits is : ${even}\nThe sum of odd place digits is : ${odd}`);
+}
+VM404:8 Uncaught SyntaxError: Invalid left-hand side in assignment
+function sum(x){
+    var digits;
+    var even = 0;
+    var odd = 0;
+    while(x>0){
+        digit = x % 10;
+        x = x/10;
+        if(digit % 2 != 0){
+            even = even + digit;
+        }
+        else{
+            odd = odd + digit;
+        }
+    }
+    console.log(`The sum of even place digits is : ${even}\nThe sum of odd place digits is : ${odd}`);
+}
+undefined
+sum(2913);
+VM407:15 The sum of even place digits is : 16.666666666666682
+The sum of odd place digits is : 0
+undefined
+function capital(x){
+    var arr = x.split(" ");
+    for(var i = 0; i < arr.length; i++){
+        arr[i]  = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
+    }
+    var str = arr.join(" ");
+    console.log(str);
+}
+undefined
+capital("hey bro how are you doing.");
+VM443:7 Hey Bro How Are You Doing.
+undefined
+function validatePhone(n){
+    if(typeof n === 'number'){
+        
+    var x = n.toString();
+    if(x.length == 10){
+        return "valid";
+    }
+    }
+    else{
+        return "invalid";
+    }
+}
+undefined
+validatePhone(8521"asdfgt");
+VM653:1 Uncaught SyntaxError: missing ) after argument list
+validatePhone("asdfgtasd");
+'invalid'
+function validatePhone(n){
+    if(typeof n === 'number'){
+        
+    var x = n.toString();
+    if(x.length == 10){
+        return "valid";
+    }
+    }
+    else{
+        return "invalid";
+    }
+}
+undefined
+validatePhone("asdfgtasd");
+'invalid'
+validatePhone(8965472584);
+'valid'

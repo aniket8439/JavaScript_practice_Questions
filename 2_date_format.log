@@ -1,0 +1,11 @@
+var d = new Date();
+undefined
+var date = d.getDate();
+undefined
+var month = d.getMonth();
+undefined
+var year = d.getFullYear();
+undefined
+console.log(`${month}-${date}-${year}, ${month}/${date}/${year} or ${date}-${month}-${year}, ${date}/${month}/${year}`);
+VM465:1 5-28-2023, 5/28/2023 or 28-5-2023, 28/5/2023
+undefined

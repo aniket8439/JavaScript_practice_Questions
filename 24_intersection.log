@@ -1,0 +1,7 @@
+function intersection(arr1,arr2){
+    var res = arr1.filter(e=>arr2.indexOf(e)!= -1);
+    return res;
+}
+undefined
+intersection([2,4,1,7,9],[1,2,3,4,5,7]);
+(4) [2, 4, 1, 7]

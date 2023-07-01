@@ -1,0 +1,7 @@
+function duplicate(n){
+    var res = n.filter(e=>n.indexOf(e)!=1);
+    return res;
+}
+undefined
+duplicate([1,10,10,2,5,10,]);
+(3) [1, 2, 5]

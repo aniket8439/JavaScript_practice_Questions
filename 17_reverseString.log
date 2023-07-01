@@ -1,0 +1,9 @@
+function reverseString(n){
+    var arr = n.split('');
+    var r = arr.reverse();
+    var result = r.join('');
+    console.log(result);
+}
+undefined
+reverseString("brainmentors");
+VM4878:5 srotnemniarb

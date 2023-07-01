@@ -1,0 +1,23 @@
+function sum(x){
+    var even = 0;
+    var odd = 0;
+    var i = 0;
+    while(x!=0){
+        if(i%2==0){
+            var n = x%10;
+            even = even + n;
+        }
+        else{
+            var m = x%10;
+            odd = odd + m;
+        }
+        i++;
+        x = parseInt(x/10);
+    }
+    console.log(`Even place digits sum : ${even} \nOdd place digits sum : ${odd}`);
+}
+undefined
+sum(2913);
+VM644:17 Even place digits sum : 12 
+Odd place digits sum : 3
+

@@ -1,0 +1,7 @@
+function sum(n){
+var res = n.reduce((acc,e)=>acc+e,0);
+    return res;
+}
+undefined
+sum([1,2,3,4,5]);
+15

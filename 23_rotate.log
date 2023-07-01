@@ -1,0 +1,11 @@
+function rotate(n,step){
+    
+        for(var i = 0;i<step;i++){
+            n.unshift(n.pop());
+        }
+    
+    return n;
+}
+undefined
+rotate([1,2,3,4,5],2);
+(5) [4, 5, 1, 2, 3]

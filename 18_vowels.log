@@ -1,0 +1,12 @@
+function vowels(n){
+    var arr = n.split('');
+    var res = arr.filter(e=>{
+        if(e=='a'|| e=='e' || e=='i' || e=='o'|| e == 'u'){
+            return e;
+        }
+    }).length;
+    return res;
+}
+undefined
+vowels('brainmentors');
+4

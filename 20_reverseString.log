@@ -1,0 +1,16 @@
+function revElement(n){
+    var start = 0;
+    var end = n.length-1;
+    var temp;
+    while(start <= end){
+        temp = n[start];
+        n[start] = n[end];
+        n[end] = temp;
+        start++;
+        end--;
+    }
+    return n;
+}
+undefined
+revElement(['a','b','c','d','e','f']);
+(6) ['f', 'e', 'd', 'c', 'b', 'a']
